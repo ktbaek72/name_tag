@@ -1,3 +1,23 @@
 basic.forever(function () {
-    basic.showString("microbit")
+    basic.showLeds(`
+        # # # # .
+        # . . . #
+        # # # # .
+        # . . . #
+        # # # # .
+        `)
+    basic.showLeds(`
+        # . . # #
+        # . # . .
+        # # . . .
+        # . # . .
+        # . . # #
+        `)
+    basic.showLeds(`
+        # # # # #
+        . . # . .
+        . . # . .
+        . . # . .
+        . . # . .
+        `)
 })
